@@ -6,6 +6,56 @@
 ChargebackShield AI is a **defense-only** merchant risk-management platform designed to proactively protect merchants from payment disputes, friendly fraud, and chargeback revenue leakage without causing customer checkout friction.
 
 ---
+## 🚀 Live Demo
+
+### 🔗 ChargebackShield AI
+
+**Try the working prototype:**
+👉 **[Launch ChargebackShield AI Demo](https://ai.studio/apps/d1ae6232-cbb7-4f84-a7d9-cb28c53b6d3f)**
+     demo link - https://chargeback-ai.netlify.app/
+
+> **Demo:** AI Studio Prototype
+> **Track:** Razorpay Hackathon — Track 02: AI Risk Manager
+> **Focus:** Fraud • Returns • Chargebacks • Merchant Risk
+
+### 🎯 What the Demo Shows
+
+ChargebackShield AI demonstrates an AI-powered merchant protection workflow:
+
+**Predict → Explain → Verify → Defend**
+
+* 🔍 Real-time transaction risk analysis
+* 📊 Risk scoring from 0–100
+* 🤖 AI-powered risk explanations
+* ⚠️ Fraud and anomaly detection
+* 💰 Expected-loss analysis
+* 🛡️ Chargeback defense
+* 📄 Evidence generation
+* 📈 Merchant risk analytics
+* ⚡ Action recommendations for high-risk transactions
+
+### 🧩 Demo Architecture
+
+```text
+Razorpay Payment
+       ↓
+Transaction Verification
+       ↓
+AI Risk Engine
+       ↓
+Risk Score 0–100
+       ↓
+Explainable AI
+       ↓
+Fraud / Return / Chargeback Risk
+       ↓
+Recommended Action
+       ↓
+Merchant Dashboard
+       ↓
+Chargeback Evidence
+```
+
 
 ## Core Paradigm: Predict → Explain → Verify → Defend
 
@@ -54,6 +104,7 @@ ChargebackShield AI is a **defense-only** merchant risk-management platform desi
 8. **Business Impact**: Adjust cost sliders to witness ₹4.08L+ in net expected merchant savings.
 
 ---
+> **Note:** The prototype may use synthetic/demo data for demonstration. Production deployment should use verified Razorpay transaction data, authenticated webhooks, secure credentials, and properly validated ML evaluation datasets.
 
 ## Running Locally
 
