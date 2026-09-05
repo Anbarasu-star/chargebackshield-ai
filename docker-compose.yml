@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  chargeback-shield-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chargeback_shield_ai
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - DATABASE_URL=sqlite:///./data/chargeback_shield.db
+      - DEFAULT_CHARGEBACK_LOSS=2000
+      - DEFAULT_VERIFICATION_COST=50
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    restart: unless-stopped

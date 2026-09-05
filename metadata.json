@@ -1,0 +1,6 @@
+{
+  "name": "ChargebackShield AI",
+  "description": "Defense-only merchant risk-management platform with ML chargeback prediction, SHAP explainability, real-time anomaly detection, false-positive cost optimization, and RAG-assisted evidence generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
